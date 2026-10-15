@@ -1,0 +1,7 @@
+# Entorno virtual: cada quien crea el suyo, no se comparte
+.venv/
+# Archivos compilados que Python genera solo
+__pycache__/
+*.pyc
+# Caché de pytest
+.pytest_cache/

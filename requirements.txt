@@ -1,0 +1,9 @@
+# Framework web para construir la API
+fastapi>=0.115
+# Servidor ASGI que ejecuta la aplicación ("[standard]" agrega extras como recarga automática)
+uvicorn[standard]>=0.30
+# Necesario para validar correos con el tipo EmailStr de Pydantic
+email-validator>=2.0
+# Solo para las pruebas automáticas (test_main.py)
+pytest>=8.0
+httpx>=0.27
