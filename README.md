@@ -62,8 +62,12 @@ demo-fastapi/
 ├── test_main.py          # Pruebas automáticas con pytest
 ├── requirements.txt      # Lista de librerías que necesita el proyecto
 ├── .gitignore            # Archivos que Git debe ignorar (por ejemplo .venv)
+├── docs/
+│   └── diagrama_secuencia.md  # Diagramas de secuencia de la API (Mermaid)
 └── README.md             # Este documento
 ```
+
+> ¿Quieres ver qué pasa por dentro en cada petición? Revisa los [diagramas de secuencia](docs/diagrama_secuencia.md).
 
 ---
 
